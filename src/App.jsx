@@ -457,9 +457,7 @@ export default function Portfolio() {
               <span style={{ width: 2, height: "1.1em", background: ACCENT, display: "inline-block", animation: "blink 1s step-end infinite" }} />
             </div>
             <p style={{ fontSize: 16, lineHeight: 1.8, color: "#6a7fa0", maxWidth: 580, marginBottom: 40 }}>
-              B.Tech CSE graduate (2026) from Sri Vasavi Institute of Engineering & Technology.
-              Passionate about building scalable software solutions — 5 internships, 3 full-stack & ML projects,
-              and a commitment to clean, maintainable code.
+                 I’m Jayaram, a B.Tech Computer Science graduate driven by curiosity and a passion for building meaningful software. I enjoy transforming ideas into practical applications, writing clean and maintainable code, and continuously learning to create reliable, user-focused digital experiences.
             </p>
             <div style={{ display: "flex", gap: 14, flexWrap: "wrap" }}>
               <button onClick={() => scrollTo("Projects")}
