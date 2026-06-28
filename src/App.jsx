@@ -394,7 +394,7 @@ export default function Portfolio() {
         height: 64,
       }}>
         <div style={{ fontFamily: "monospace", fontWeight: 800, fontSize: 18, background: `linear-gradient(135deg,${ACCENT},${PURPLE})`, WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
-          TJR<span style={{ WebkitTextFillColor: "#c8d8f0", fontWeight: 300 }}>.dev</span>
+          THOTA JAYA<span style={{ WebkitTextFillColor: "#c8d8f0", fontWeight: 300 }}>RAM</span>
         </div>
         {/* Desktop nav */}
         <div style={{ display: "flex", gap: 4 }} className="desktop-nav">
