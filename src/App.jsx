@@ -10,7 +10,7 @@ const SKILLS = {
   "Languages": ["Java", "Python", "C", "JavaScript (ES6)"],
   "Frontend": ["React.js", "HTML5", "CSS3", "Bootstrap 5"],
   "Backend & APIs": ["Spring Boot", "FastAPI", "Node.js", "REST APIs"],
-  "AI & Data": ["RAG (Retrieval-Augmented Gen.)", "Vector DBs (Pinecone, Chroma)", "LangChain / LangGraph", "MCP (Model Context Protocol)"],
+  //"AI & Data": ["RAG (Retrieval-Augmented Gen.)", "Vector DBs (Pinecone, Chroma)", "LangChain / LangGraph", "MCP (Model Context Protocol)"],
   "Database": ["MySQL", "SQL", "JDBC"],
   "Cloud & Tools": ["AWS (EC2, IAM, S3)", "Git", "GitHub", "VS Code"],
   "Core CS": ["OOP", "DSA", "DBMS", "Operating Systems"],
