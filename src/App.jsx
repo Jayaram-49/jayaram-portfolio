@@ -477,7 +477,7 @@ export default function Portfolio() {
             {/* Social Links */}
             <div style={{ display: "flex", gap: 16, marginTop: 32 }}>
               {[
-                { label: "LinkedIn", url: "https://linkedin.com/in/thota-jayaram", icon: "in" },
+                { label: "LinkedIn", url: "https://www.linkedin.com/in/thota-jaya-ram/", icon: "in" },
                 { label: "GitHub", url: "https://github.com/Jayaram-49", icon: "gh" },
                 { label: "Email", url: "mailto:jayaramthota12@gmail.com", icon: "@" },
               ].map(s => (
@@ -710,7 +710,7 @@ export default function Portfolio() {
               onMouseEnter={e => { e.currentTarget.style.transform = "translateY(-3px)"; e.currentTarget.style.boxShadow = `0 12px 40px ${ACCENT}44`; }}
               onMouseLeave={e => { e.currentTarget.style.transform = ""; e.currentTarget.style.boxShadow = ""; }}
             >Say Hello 👋</a>
-            <a href="https://linkedin.com/in/thota-jayaram" target="_blank" rel="noreferrer"
+            <a href=" https://www.linkedin.com/in/thota-jaya-ram/" target="_blank" rel="noreferrer"
               style={{ display: "inline-block", padding: "14px 36px", borderRadius: 8, background: "transparent", color: ACCENT, border: `1px solid ${ACCENT}44`, fontWeight: 700, fontSize: 16, textDecoration: "none", transition: "all .2s" }}
               onMouseEnter={e => { e.currentTarget.style.background = `${ACCENT}11`; e.currentTarget.style.borderColor = ACCENT; }}
               onMouseLeave={e => { e.currentTarget.style.background = "transparent"; e.currentTarget.style.borderColor = `${ACCENT}44`; }}
