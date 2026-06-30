@@ -1,29 +1,75 @@
-# Thota Jaya Ram - Portfolio Website
+# 🎨 Professional Portfolio Website
 
-A stunning, modern portfolio website built with **React.js** and **Vite**. Showcasing projects, experience, skills, and certifications with interactive features and smooth animations.
+<div align="center">
 
-## 🎨 Features
+![Status](https://img.shields.io/badge/Status-Live-brightgreen?style=for-the-badge)
+![React](https://img.shields.io/badge/React_18-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Deployed](https://img.shields.io/badge/Deployed-Vercel-000000?style=for-the-badge&logo=vercel)
 
-✨ **Modern Dark Theme** - Sleek dark UI with cyan/purple gradients
-🎭 **Animated Typography** - Cycling role titles with typing effect
-📸 **Profile Photo Integration** - Professional headshot display
-📄 **Interactive Certificates** - Click-to-view PDF certificates with modal
-📱 **Fully Responsive** - Works perfectly on mobile, tablet, and desktop
-⚡ **Performance Optimized** - Built with Vite for lightning-fast builds
-🔗 **Social Links** - Quick links to LinkedIn, GitHub, and Email
-🎯 **Smooth Navigation** - Fixed navbar with scroll tracking
+A stunning, high-performance **professional portfolio website** built with React 18 and Vite, showcasing projects, skills, experience, and certifications with smooth animations and responsive design.
+
+[🌐 Live Demo](https://jayaram-portfolio-tau.vercel.app/) • [🚀 Quick Start](#-getting-started)
+
+</div>
+
+---
+
+## ✨ Features
+
+### **Interactive Elements**
+- 🎭 **Animated Typography** – Cycling role titles with typing animation
+- 📸 **Profile Photo Integration** – Professional headshot with effects
+- 📄 **Interactive Certificates** – Click-to-view PDF modals
+- 🔗 **Social Links** – Quick links to LinkedIn, GitHub, Email
+- 🎯 **Smooth Navigation** – Fixed navbar with scroll tracking
+
+### **Design & UX**
+- 🌙 **Modern Dark Theme** – Sleek UI with cyan/purple gradients
+- 📱 **Fully Responsive** – Perfect on mobile, tablet, and desktop
+- ⚡ **Performance Optimized** – Lightning-fast with Vite bundler
+- 💫 **Smooth Animations** – Professional transitions and effects
+- 🎨 **Custom CSS** – No UI library bloat, pure CSS elegance
+
+### **Content Sections**
+- 👤 **Hero** – Animated introduction with CTA buttons
+- 📊 **Stats Strip** – Counters for internships, projects, certifications
+- 💡 **Skills** – Tabbed skills organized by category
+- 🚀 **Projects** – Featured projects with tech stacks
+- 💼 **Experience** – Detailed internship history
+- 🏆 **Certifications** – PDF viewer with download buttons
+- 📞 **Contact** – Email, phone, location, social links
+
+---
+
+## 🌐 Live Demo
+
+**[View Live Portfolio](https://jayaram-portfolio-tau.vercel.app/)**
+
+> Fully responsive • Optimized performance • Production-ready
+
+---
+
+## 🛠️ Technology Stack
+
+| Category | Technology |
+|----------|-----------|
+| **Framework** | React 18 (latest) |
+| **Bundler** | Vite (ultra-fast builds) |
+| **Styling** | CSS-in-JS (inline styles) |
+| **Performance** | Code splitting, lazy loading |
+| **Deployment** | Vercel (zero-config) |
+
+---
 
 ## 📂 Project Structure
 
 ```
-jayaram-portfolio-app/
-├── src/
-│   ├── App.jsx           # Main React component (all-in-one)
-│   └── main.jsx          # Entry point
-├── public/
+jayaram-portfolio/
+├── 📂 public/
 │   ├── images/
-│   │   └── profile.jpg   # Your profile photo
-│   └── certificates/     # PDF certificates
+│   │   └── profile.jpg              # Professional headshot
+│   └── certificates/                # PDF certificates
 │       ├── react-js.pdf
 │       ├── java-fullstack.pdf
 │       ├── python-programming.pdf
@@ -32,287 +78,297 @@ jayaram-portfolio-app/
 │       ├── networking-cyber.pdf
 │       ├── android-dev.pdf
 │       └── web-development.pdf
-├── index.html            # HTML entry point
-├── package.json          # Dependencies & scripts
-├── vite.config.js        # Vite configuration
-├── .gitignore            # Git ignore rules
-└── README.md             # This file
+│
+├── 📂 src/
+│   ├── App.jsx                      # Main React component
+│   ├── main.jsx                     # React DOM entry point
+│   ├── index.css                    # Global styles
+│   └── App.css                      # Component styles
+│
+├── index.html                       # HTML entry point
+├── package.json                     # Dependencies & scripts
+├── vite.config.js                   # Vite configuration
+├── .gitignore                       # Git ignore rules
+├── README.md                        # This file
+└── LICENSE                          # MIT License
 ```
+
+---
 
 ## 🚀 Getting Started
 
-### Prerequisites
+### **Prerequisites**
 
-- **Node.js** (v16 or higher)
-- **npm** or **yarn** package manager
-- A modern web browser
+- Node.js v16 or higher
+- npm or yarn package manager
+- Git
 
-### Local Development
+### **Local Development**
 
-#### 1. **Extract the project files**
+#### **1. Clone the Repository**
 ```bash
-unzip jayaram-portfolio-app.zip
-cd jayaram-portfolio-app
+git clone https://github.com/Jayaram-49/jayaram-portfolio.git
+cd jayaram-portfolio
 ```
 
-#### 2. **Install dependencies**
+#### **2. Install Dependencies**
 ```bash
 npm install
 ```
 
-#### 3. **Run development server**
+#### **3. Run Development Server**
 ```bash
 npm run dev
 ```
 
-The app will open at **http://localhost:3000** automatically.
+The app will open at **http://localhost:5173** (Vite default)
 
-#### 4. **Build for production**
+#### **4. Build for Production**
 ```bash
 npm run build
 ```
 
-This creates a `dist/` folder with optimized production files.
+This creates an optimized `dist/` folder ready for deployment
+
+---
 
 ## 🌐 Deployment Options
 
-### **Option 1: Netlify (Easiest & Free)**
+### **Option 1: Vercel (Recommended & Current)**
 
-1. **Build the project locally:**
-   ```bash
-   npm run build
-   ```
+```bash
+# Install Vercel CLI
+npm install -g vercel
 
-2. **Create a Netlify account:**
-   - Go to [netlify.com](https://netlify.com)
-   - Sign up with GitHub/Google
+# Deploy (automatic detection)
+vercel
+```
 
-3. **Deploy:**
-   - Drag and drop the `dist/` folder onto Netlify
-   - Or connect your GitHub repo for automatic deployments
-
-4. **Your site goes live instantly** with a Netlify URL (e.g., `your-portfolio.netlify.app`)
-
----
-
-### **Option 2: Vercel (Recommended for React)**
-
-1. **Create a Vercel account:**
-   - Go to [vercel.com](https://vercel.com)
-   - Sign up with GitHub
-
-2. **Connect your repository:**
-   - Import your GitHub repo into Vercel
-   - Vercel auto-detects the Vite setup
-
-3. **One-click deployment:**
-   - Vercel automatically runs `npm run build`
-   - Your site deploys on every GitHub push
-   - Get a custom domain
+**Advantages:**
+- ✅ Zero-config deployment
+- ✅ Free tier (generous limits)
+- ✅ Automatic rollbacks
+- ✅ Edge Functions support
+- ✅ Live URL: [jayaram-portfolio-tau.vercel.app](https://jayaram-portfolio-tau.vercel.app/)
 
 ---
 
-### **Option 3: GitHub Pages (Free)**
+### **Option 2: Netlify**
 
-1. **Update vite.config.js:**
-   ```js
-   export default defineConfig({
-     base: '/jayaram-portfolio/', // or your repo name
-     // ... rest of config
-   })
-   ```
+```bash
+# Build locally
+npm run build
 
-2. **Add build script to package.json:**
-   ```json
-   "deploy": "npm run build && git add dist -f && git commit -m 'Deploy' && git push"
-   ```
-
-3. **Push to GitHub:**
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit"
-   git remote add origin https://github.com/YOUR_USERNAME/jayaram-portfolio.git
-   git push -u origin main
-   ```
-
-4. **Enable GitHub Pages:**
-   - Go to repo Settings → Pages
-   - Select `gh-pages` branch as source
-   - Your site is live at `username.github.io/jayaram-portfolio`
+# Drag 'dist' folder to Netlify
+# Or use CLI:
+npm install -g netlify-cli
+netlify deploy --prod --dir=dist
+```
 
 ---
 
-### **Option 4: Railway.app (Free + Easy)**
+### **Option 3: GitHub Pages**
 
-1. **Create a Railway account:**
-   - Go to [railway.app](https://railway.app)
-   - Sign in with GitHub
-
-2. **Create new project:**
-   - Select "Deploy from GitHub repo"
-   - Connect your repo
-
-3. **Configure build:**
-   - Build command: `npm run build`
-   - Start command: `npx serve -s dist -l 3000`
-
-4. **Deploy:**
-   - Railway auto-deploys on every push
-   - Get a live URL instantly
+```bash
+# Update vite.config.js: base: '/jayaram-portfolio/'
+# Then deploy with npm script
+npm run deploy
+```
 
 ---
 
-### **Option 5: AWS (Scalable, Paid)**
+### **Option 4: Railway.app**
 
-1. **Build the project:**
-   ```bash
-   npm run build
-   ```
-
-2. **Upload to S3:**
-   - Create S3 bucket
-   - Upload `dist/` folder contents
-   - Enable static website hosting
-
-3. **Set up CloudFront (CDN):**
-   - For faster global delivery
-
-4. **Cost:** ~$1-5/month for low traffic
+```bash
+# Create account at railway.app
+# Connect GitHub repo
+# One-click deployment
+```
 
 ---
 
-## 📋 What's Inside
+### **Option 5: AWS S3 + CloudFront**
 
-### Sections:
-- **Hero** - Your name, animated roles, profile photo, CTAs
-- **Stats Strip** - Internships, Projects, Certifications counters
-- **Skills** - Tabbed skills organized by category
-- **Projects** - 3 featured projects with tech stacks
-- **Experience** - 10 internships with expandable details
-- **Certifications** - 8+ certs with PDF viewers and download buttons
-- **Contact** - Email, phone, location, social links
+```bash
+npm run build
+# Upload dist/ to S3 bucket
+# Set up CloudFront CDN for faster delivery
+```
 
-### Key Technologies:
-- React 18 (with Hooks)
-- Vite (ultra-fast bundler)
-- CSS-in-JS (inline styles)
-- No external UI libraries required
+---
 
-## 🎯 Customization
+## 🎨 Customization Guide
 
-### Change Profile Photo:
-Replace `/public/images/profile.jpg` with your photo. Keep the same filename or update `src/App.jsx` line:
-```jsx
+### **Change Profile Photo**
+
+```bash
+# Replace: /public/images/profile.jpg
+# Update in App.jsx if filename differs:
 <img src="/images/profile.jpg" alt="Your Name" />
 ```
 
-### Update Certificates:
-- Add PDFs to `/public/certificates/`
-- Update the `CERTS` array in `src/App.jsx`
+### **Update Certificates**
 
-### Modify Colors:
-Find these at the top of `App.jsx`:
+1. Add PDF files to `/public/certificates/`
+2. Update the `CERTS` array in `src/App.jsx`
+3. Format: `{ name: "Cert Name", file: "filename.pdf" }`
+
+### **Modify Colors**
+
+Edit `src/App.jsx`:
+
 ```jsx
-const ACCENT = "#00d4ff";      // Cyan
-const PURPLE = "#7c3aed";      // Purple
-const GREEN = "#10b981";       // Green
+const ACCENT = "#00d4ff";      // Cyan accent
+const PURPLE = "#7c3aed";      // Purple highlight
+const GREEN = "#10b981";       // Green success
+const BG = "#0f172a";          // Dark background
 ```
 
-### Update Content:
-Edit `SKILLS`, `PROJECTS`, `EXPERIENCE`, `CERTS` arrays in `App.jsx`
+### **Update Content**
+
+Edit these arrays in `src/App.jsx`:
+- `SKILLS` – Your technical skills
+- `PROJECTS` – Featured projects
+- `EXPERIENCE` – Internship history
+- `CERTS` – Certifications
+
+---
 
 ## 📱 Responsive Design
 
-The portfolio adapts to:
-- **Mobile** (320px+) - Single column layouts
-- **Tablet** (768px+) - 2-column grids
-- **Desktop** (1024px+) - Full multi-column layouts
-- **Ultra-wide** (1440px+) - Optimized spacing
+Optimized for all screen sizes:
 
-Mobile navigation includes hamburger menu.
+| Device | Breakpoint | Layout |
+|--------|-----------|--------|
+| **Mobile** | 320px+ | Single column, stacked |
+| **Tablet** | 768px+ | 2-column grid |
+| **Desktop** | 1024px+ | Full multi-column |
+| **Ultra-wide** | 1440px+ | Optimized spacing |
+
+Mobile navigation includes hamburger menu for easy access.
+
+---
 
 ## ⚙️ Environment Setup
 
-### Using Windows:
+### **Windows**
 1. Download Node.js from [nodejs.org](https://nodejs.org)
-2. Run installer (adds `npm` to PATH)
-3. Open Command Prompt and navigate to project folder
-4. Run: `npm install` → `npm run dev`
+2. Run installer (adds npm to PATH)
+3. Open Command Prompt
+4. Navigate to project folder
+5. Run: `npm install` → `npm run dev`
 
-### Using macOS:
+### **macOS**
 ```bash
 # Install Node using Homebrew
 brew install node
 
-# Then follow Linux steps below
+# Then follow Linux steps
 ```
 
-### Using Linux:
+### **Linux (Ubuntu/Debian)**
 ```bash
-# Install Node (Ubuntu/Debian)
+# Install Node
 sudo apt update
 sudo apt install nodejs npm
 
 # Navigate to project
-cd jayaram-portfolio-app
+cd jayaram-portfolio
 npm install
 npm run dev
 ```
 
-## 📊 Performance Tips
+---
 
-- **Lighthouse Score:** Currently ~95/100
-- **Bundle Size:** ~45KB (gzipped)
-- **Load Time:** <1 second on 4G
+## 📊 Performance Metrics
 
-To optimize further:
-- Compress images (tools: [tinypng.com](https://tinypng.com))
-- Use a CDN (Cloudflare, BunnyCDN)
-- Enable GZIP compression on server
+| Metric | Score |
+|--------|-------|
+| **Lighthouse Score** | 95/100 |
+| **Bundle Size** | ~45KB (gzipped) |
+| **First Load** | <1 second on 4G |
+| **Mobile Performance** | Excellent |
+| **SEO** | Optimized |
+
+### **Optimization Tips**
+
+- Compress images: [tinypng.com](https://tinypng.com)
+- Use CDN: Cloudflare, BunnyCDN
+- Enable GZIP compression
+- Leverage browser caching
+
+---
 
 ## 🐛 Troubleshooting
 
-### "npm command not found"
+### **"npm command not found"**
 → Install Node.js from [nodejs.org](https://nodejs.org)
 
-### Port 3000 already in use
-→ Change in `vite.config.js`: `port: 3001`
+### **Port 5173 already in use**
+→ Change in `vite.config.js`: `port: 5174`
 
-### Build errors
-→ Run:
+### **Build errors**
 ```bash
 rm -rf node_modules package-lock.json
 npm install
 npm run build
 ```
 
-### PDFs not loading
+### **PDFs not loading**
 → Ensure certificate PDFs are in `/public/certificates/` with exact names matching `CERTS` array
 
-## 📞 Support
-
-- **GitHub Issues:** Report bugs on your GitHub repo
-- **Update skills/projects:** Edit `CERTS`, `SKILLS`, `PROJECTS`, `EXPERIENCE` in `src/App.jsx`
-- **Custom domain:** Netlify/Vercel let you add custom domains for $0 (just register domain separately)
-
-## 🎉 You're All Set!
-
-Your portfolio is now ready to impress recruiters and future employers. Share it on:
-- LinkedIn profile
-- Resume/CV
-- GitHub profile
-- Job applications
-- Twitter/X bio
+### **Vercel deployment fails**
+→ Check that `vite.config.js` has no `base` property (remove if present)
 
 ---
 
-## 📄 License
+## 🎯 SEO Optimization
+
+The portfolio includes:
+- ✅ Meta tags for social sharing
+- ✅ Open Graph tags for LinkedIn/Twitter
+- ✅ Semantic HTML structure
+- ✅ Fast loading (Lighthouse 95+)
+- ✅ Mobile-friendly design
+
+---
+
+## 📝 License
 
 Free to use and modify. No attribution required.
 
 ---
 
+## 💬 Support & Contact
+
+- 📧 **Email:** jayaramthota12@gmail.com
+- 🔗 **GitHub:** [github.com/Jayaram-49](https://github.com/Jayaram-49)
+- 💼 **LinkedIn:** [linkedin.com/in/thota-jaya-ram](https://linkedin.com/in/thota-jaya-ram)
+
+---
+
+## 🚀 What's Next?
+
+- [ ] Add blog section
+- [ ] Integrate contact form with backend
+- [ ] Add more project showcases
+- [ ] Implement dark mode toggle
+- [ ] Add resume download button
+- [ ] Mobile app version
+- [ ] Analytics tracking
+
+---
+
+<div align="center">
+
+### ⭐ Found this helpful? Star the repository! ⭐
+
 **Built with ❤️ using React & Vite**
 
+[🌐 Visit Live Portfolio](https://jayaram-portfolio-tau.vercel.app/)
+
 Happy coding! 🚀
+
+*Last Updated: June 2026*
+
+</div>
